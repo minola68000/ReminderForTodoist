@@ -21,7 +21,12 @@ If you are IFTTT pro user and need just simple and free reminder function, it mi
 
 # Installation
 
-* Set up Applet of the IFTTT.
+* Set up Applet of the IFTTT(registerTodo)
+
+  <img width="554" alt="registerTodo" src="https://user-images.githubusercontent.com/67622338/94555097-06f4f980-0296-11eb-97f8-4b3a2cb6066c.png">  
+* Set up Applet of the IFTTT(completeTodo)
+
+  <img width="566" alt="completeTodo" src="https://user-images.githubusercontent.com/67622338/94555122-0e1c0780-0296-11eb-99f8-439e3c05867a.png">
 * Set up code of the GAS.
 * Set up trriger of the GAS.
 
