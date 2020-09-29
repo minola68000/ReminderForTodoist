@@ -6,6 +6,7 @@ This project enables you to send reminder according to Todoist's todo.
 # DEMO
 
 Todoist 👉 IFTTT 👉 GAS 👉 Google Spread Sheet
+
 GAS Trigger 👉 GAS 👉 Google Spread Sheet 👉 LINE or AppNotification
 
 # Features
