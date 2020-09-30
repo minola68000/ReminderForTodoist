@@ -105,15 +105,15 @@ function ckeckReminder() {
 // Actually send a reminder LINE or Notification (IFTTT webhook so up to you)
 ////////////////////////////////////////////////////////////////
 function sendReminder(message) {
-  const webHookToRemind = PropertiesService.getScriptProperties().getProperty('remindWebHook');
-  if ( ! webHookToRemind) return handleError('There is no remindWebHook setting in the project property!');
+  const WEB_HOOK_REMIND = PropertiesService.getScriptProperties().getProperty('remindWebHook');
+  if ( ! WEB_HOOK_REMIND) return handleError('There is no remindWebHook setting in the project property!');
 
   var options = {
     "method" : "GET",
   }
 
   // A message is related as value1 parameter.
-  var url = `${webHookToRemind}?value1=${message}`;
+  var url = `${WEB_HOOK_REMIND}?value1=${message}`;
   try {
     var response = UrlFetchApp.fetch(url, options);
     response.getContentText("UTF-8");
